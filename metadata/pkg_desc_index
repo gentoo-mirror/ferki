@@ -1,6 +1,5 @@
 app-admin/terraform 0.12.17: A tool for building, changing, and combining infrastructure safely
 app-i18n/translate-shell 0.9.6.11: Online command-line translator
-app-misc/gcalcli 3.4.0-r1 4.0.0_alpha3: Google Calendar Command Line Interface
 app-text/grip 4.5.2: Preview GitHub Markdown files like Readme locally before committing them
 dev-python/carbonate 0.2.3 1.0.1: Utilities for managing graphite clusters
 dev-python/path-and-address 2.0.1: Functions for server CLI applications used by humans
