@@ -1,4 +1,4 @@
-app-admin/terraform 0.12.17: A tool for building, changing, and combining infrastructure safely
+app-admin/terraform 0.12.18: A tool for building, changing, and combining infrastructure safely
 app-i18n/translate-shell 0.9.6.11: Online command-line translator
 app-text/grip 4.5.2: Preview GitHub Markdown files like Readme locally before committing them
 dev-python/carbonate 0.2.3 1.0.1: Utilities for managing graphite clusters
