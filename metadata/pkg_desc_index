@@ -4,5 +4,5 @@ app-text/grip 4.5.2: Preview GitHub Markdown files like Readme locally before co
 dev-python/carbonate 0.2.3 1.0.1: Utilities for managing graphite clusters
 dev-python/path-and-address 2.0.1: Functions for server CLI applications used by humans
 media-gfx/aaphoto 0.45: Automatic color correction and resizing of photos
-net-firewall/arno-iptables-firewall 2.0.3: Arno's iptables firewall script
+net-firewall/arno-iptables-firewall 2.1.0: Arno's iptables firewall script
 sys-process/nq 0.3.1: Unix command line queue utility.

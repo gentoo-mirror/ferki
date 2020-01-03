@@ -3,3 +3,4 @@
 # * generated automatically using pmaint *
 
 net-firewall/arno-iptables-firewall:plugins - Install optional plugins
+net-firewall/arno-iptables-firewall:rsyslog - Install configuration snippet for app-admin/rsyslog
