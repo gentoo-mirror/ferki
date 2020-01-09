@@ -7,7 +7,7 @@ inherit bash-completion-r1
 
 DESCRIPTION="A CLI-based TODO list manager"
 HOMEPAGE="http://todotxt.com"
-SRC_URI="https://github.com/ginatrapani/${PN}.txt-cli/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://github.com/todotxt/${PN}.txt-cli/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -36,10 +36,12 @@ src_test() {
 }
 
 src_install() {
-	newbin "${PN}.sh" "${PN}cli"
-	dosym "${PN}cli" "/usr/bin/${PN}txt"
-	newbashcomp "${PN}_completion" "${PN}cli.sh"
-	bashcomp_alias "${PN}cli.sh" "${PN}txt"
+	dobin "${PN}.sh"
+	dosym "${PN}.sh" "/usr/bin/${PN}cli"
+	dosym "${PN}.sh" "/usr/bin/${PN}txt"
+	newbashcomp "${PN}_completion" "${PN}.sh"
+	bashcomp_alias "${PN}.sh" "${PN}cli"
+	bashcomp_alias "${PN}.sh" "${PN}txt"
 	einstalldocs
 }
 
