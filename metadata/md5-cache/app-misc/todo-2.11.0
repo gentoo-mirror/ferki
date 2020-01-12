@@ -1,6 +1,6 @@
 DEFINED_PHASES=install postinst prepare test
 DESCRIPTION=A CLI-based TODO list manager
-EAPI=6
+EAPI=7
 HOMEPAGE=http://todotxt.com
 IUSE=test
 KEYWORDS=~amd64 ~x86
@@ -10,4 +10,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/todotxt/todo.txt-cli/archive/v2.11.0.tar.gz -> todo-2.11.0.tar.gz
 _eclasses_=bash-completion-r1	47a7402d95930413ce25ba8d857339bb	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=0a52f554aeeb7e433c3500f8284d2fed
+_md5_=2afad45e114cdf518c7f4d6f1df2ab83
