@@ -26,6 +26,9 @@ S="${WORKDIR}/${PN}.txt-cli-${PV}"
 src_prepare() {
 	default
 
+	# fix version string
+	sed -i -e "s/@DEV_VERSION@/${PV}/" todo.sh || die
+
 	# TODO_DIR variable is bogus
 	sed -i -e '/export TODO_DIR/d' todo.cfg || die
 	sed -i -e '4i export TODO_DIR="$HOME/.todo"' todo.cfg || die
@@ -40,8 +43,7 @@ src_install() {
 	dosym "${PN}.sh" "/usr/bin/${PN}cli"
 	dosym "${PN}.sh" "/usr/bin/${PN}txt"
 	newbashcomp "${PN}_completion" "${PN}.sh"
-	bashcomp_alias "${PN}.sh" "${PN}cli"
-	bashcomp_alias "${PN}.sh" "${PN}txt"
+	bashcomp_alias "${PN}.sh" "${PN}cli" "${PN}txt"
 	einstalldocs
 }
 
@@ -54,6 +56,11 @@ pkg_postinst() {
 	einfo 'and make sure to copy the default todo'
 	einfo 'configuration file in the same location:'
 	einfo "  $ bzcat /usr/share/doc/${PF}/todo.cfg.bz2 > \$HOME/.todo/config"
+	einfo
+	einfo 'Alternatively, you can use XDG directories instead:'
+	einfo '  $ mkdir -p $HOME/.local/share/todo'
+	einfo '  $ mkdir -p $HOME/.config/todo'
+	einfo "  $ bzcat /usr/share/doc/${PF}/todo.cfg.bz2 > \$HOME/.config/todo/config"
 	einfo
 	einfo 'You can then edit this file as you see fit.'
 	einfo 'Enjoy!'
