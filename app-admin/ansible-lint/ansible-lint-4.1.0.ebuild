@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2_7 python3_{6,7} )
+PYTHON_COMPAT=( python3_{6,7} )
 DISTUTILS_USE_SETUPTOOLS=rdepend
 
 inherit distutils-r1
@@ -21,7 +21,8 @@ RESTRICT="!test? ( test )"
 CDEPEND="app-admin/ansible[${PYTHON_USEDEP}]
 		dev-python/pyyaml[${PYTHON_USEDEP}]
 		dev-python/six[${PYTHON_USEDEP}]"
-DEPEND="<=dev-python/setuptools-41.4.0[${PYTHON_USEDEP}]
+DEPEND="dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+		<=dev-python/setuptools-41.4.0[${PYTHON_USEDEP}]
 		dev-python/setuptools-git[${PYTHON_USEDEP}]
 		dev-python/setuptools_scm[${PYTHON_USEDEP}]
 		dev-python/setuptools_scm_git_archive[${PYTHON_USEDEP}]
