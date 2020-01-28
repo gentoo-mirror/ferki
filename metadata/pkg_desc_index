@@ -1,4 +1,4 @@
-app-admin/ansible-lint 4.0.1: Checks ansible playbooks for practices and behaviour that can be improved
+app-admin/ansible-lint 4.0.1 4.1.0: Checks ansible playbooks for practices and behaviour that can be improved
 app-admin/rex 1.8.0 9999: (R)?ex, the friendly automation framework
 app-admin/terraform 0.12.19 0.12.20: A tool for building, changing, and combining infrastructure safely
 app-i18n/translate-shell 0.9.6.11: Online command-line translator
