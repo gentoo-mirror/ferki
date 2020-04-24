@@ -7,9 +7,5 @@ app-misc/clightd:ddc - Enable ddcutil support
 app-misc/clightd:dpms - Enable DPMS support
 app-misc/clightd:gamma - Enable gamma support
 app-misc/clightd:screen - Enable screen emitted backlight computation support
-dev-perl/App-Nopaste:browser - Spawn browser with pasted page
-dev-perl/App-Nopaste:clipboard - copying of URLs with -x/--copy
-dev-perl/App-Nopaste:gitlab - Ensure git is installed for reading/passing GitLab authentication
-dev-perl/App-Nopaste:pastebin - pastebin.com support
 net-firewall/arno-iptables-firewall:plugins - Install optional plugins
 net-firewall/arno-iptables-firewall:rsyslog - Install configuration snippet for app-admin/rsyslog

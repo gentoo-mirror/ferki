@@ -4,7 +4,6 @@ app-misc/clight 4.0: A C daemon that turns your webcam into a light sensor
 app-misc/clightd 4.0: A linux bus interface for screen settings (brightness, gamma, etc.)
 app-misc/todo 2.11.0: A CLI-based TODO list manager
 dev-libs/libmodule 5.0.0: C simple and elegant implementation of an actor library
-dev-perl/App-Nopaste 1.13.0: Easy access to any pastebin
 dev-ruby/travis 1.8.13: Travis CI Client (CLI and Ruby library)
 media-gfx/aaphoto 0.45: Automatic color correction and resizing of photos
 net-firewall/arno-iptables-firewall 2.1.0: Arno's iptables firewall script
