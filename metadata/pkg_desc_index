@@ -1,4 +1,4 @@
-app-admin/rex 1.9.0 9999: (R)?ex, the friendly automation framework
+app-admin/rex 1.10.0 9999: (R)?ex, the friendly automation framework
 app-i18n/translate-shell 0.9.6.11: Online command-line translator
 app-misc/clight 4.0 9999: A C daemon that turns your webcam into a light sensor
 app-misc/clightd 4.0: A linux bus interface for screen settings (brightness, gamma, etc.)
