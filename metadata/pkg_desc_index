@@ -5,7 +5,8 @@ app-misc/clightd 4.0 9999: A linux bus interface for screen settings (brightness
 app-misc/todo 2.11.0: A CLI-based TODO list manager
 app-text/proselint 0.10.2: A linter for prose
 dev-libs/libmodule 5.0.0: C simple and elegant implementation of an actor library
-dev-ruby/travis 1.8.13: Travis CI Client (CLI and Ruby library)
+dev-ruby/gh 0.17.0: multi-layer client for the github api v3
+dev-ruby/travis 1.9.1: Travis CI Client (CLI and Ruby library)
 media-gfx/aaphoto 0.45: Automatic color correction and resizing of photos
 net-firewall/arno-iptables-firewall 2.1.0: Arno's iptables firewall script
 sys-process/nq 0.3.1: Unix command line queue utility.
