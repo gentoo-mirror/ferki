@@ -7,7 +7,6 @@ app-text/proselint 0.10.2: A linter for prose
 dev-libs/libmodule 5.0.0: C simple and elegant implementation of an actor library
 media-gfx/aaphoto 0.45: Automatic color correction and resizing of photos
 net-firewall/arno-iptables-firewall 2.1.0: Arno's iptables firewall script
-net-news/newsboat 2.20.1: An RSS/Atom feed reader for text terminals
 sys-firmware/sof-bin 1.4.2 1.4.3 1.5 1.5.1: Sound Open Firmware (SOF) firmware and topology binaries
 sys-process/nq 0.3.1: Unix command line queue utility.
 x11-misc/clipmenu 6.1.0: Clipboard management using dmenu
