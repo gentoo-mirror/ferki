@@ -39,7 +39,7 @@ systemctl enable ${PN} (for systemd)"
 
 src_prepare() {
 	sed -i -e 's:/usr/local/share/:/usr/libexec/:' \
-		etc/"${PN}"/firewall.conf || die "Sed failed!"
+		bin/"${PN}" share/"${PN}"/environment || die "Sed failed!"
 	sed -i -e 's:/usr/local/sbin/:/usr/sbin/:' \
 		lib/systemd/system/"${PN}.service" || die "Sed failed!"
 	eapply_user
@@ -57,6 +57,8 @@ src_install() {
 	dosbin bin/"${PN}"
 
 	insinto /usr/libexec/"${PN}"
+	doins share/"${PN}"/aif-job-execute
+	doins share/"${PN}"/aif-job-processor
 	doins share/"${PN}"/environment
 
 	insinto /etc/logrotate.d
@@ -74,7 +76,9 @@ src_install() {
 		doins share/"${PN}"/plugins/*.plugin
 
 		exeinto /usr/libexec/"${PN}"/plugins
+		doexe share/"${PN}"/plugins/adaptive-ban-helper
 		doexe share/"${PN}"/plugins/dyndns-host-open-helper
+		doexe share/"${PN}"/plugins/parasitic-net-helper
 		doexe share/"${PN}"/plugins/traffic-accounting-helper
 		doexe share/"${PN}"/plugins/traffic-accounting-log-rotate
 		doexe share/"${PN}"/plugins/traffic-accounting-show
