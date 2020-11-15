@@ -1,3 +1,5 @@
+acct-group/laminar 0: System group: laminar
+acct-user/laminar 0: System user: laminar
 app-admin/rex 1.13.1 9999: (R)?ex, the friendly automation framework
 app-i18n/translate-shell 0.9.6.12: Online command-line translator
 app-misc/clight 4.1 9999: A C daemon that turns your webcam into a light sensor
@@ -10,6 +12,7 @@ media-gfx/aaphoto 0.45: Automatic color correction and resizing of photos
 net-firewall/arno-iptables-firewall 2.1.1: Arno's iptables firewall script
 sys-firmware/sof-bin 1.4.2 1.4.3 1.5 1.5.1: Sound Open Firmware (SOF) firmware and topology binaries
 sys-process/nq 0.3.1: Unix command line queue utility.
+www-apps/laminar 0.9: Fast and lightweight Continuous Integration
 x11-misc/clipmenu 6.2.0: Clipboard management using dmenu
 x11-misc/clipnotify 1.0.2: Notify on new X clipboard events
 x11-terms/st 0.8.4: simple terminal implementation for X
