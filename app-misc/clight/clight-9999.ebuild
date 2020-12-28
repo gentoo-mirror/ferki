@@ -18,25 +18,25 @@ SLOT="0"
 IUSE="bash-completion geoclue upower"
 
 DEPEND="
-	|| ( sys-auth/elogind sys-apps/systemd )
+	dev-libs/libconfig
 	dev-libs/popt
 	sci-libs/gsl
-	dev-libs/libconfig
+	|| ( sys-auth/elogind sys-apps/systemd )
 "
 
 RDEPEND="
 	${DEPEND}
-	app-misc/clightd
-	geoclue? ( app-misc/geoclue )
+	>=app-misc/clightd-5.0
+	geoclue? ( app-misc/geoclue:2.0 )
 	upower? ( sys-power/upower )
 "
 
 BDEPEND="
 	${DEPEND}
-	dev-libs/libmodule
+	>=dev-libs/libmodule-5.0.0
 	dev-util/cmake
-	virtual/pkgconfig
 	sys-apps/dbus
+	virtual/pkgconfig
 	bash-completion? ( app-shells/bash-completion )
 "
 
