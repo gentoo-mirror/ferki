@@ -1,13 +1,13 @@
-BDEPEND=|| ( sys-auth/elogind sys-apps/systemd ) dev-libs/popt sci-libs/gsl dev-libs/libconfig dev-libs/libmodule dev-util/cmake virtual/pkgconfig sys-apps/dbus bash-completion? ( app-shells/bash-completion ) dev-util/ninja dev-util/cmake >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=dev-libs/libconfig dev-libs/popt sci-libs/gsl || ( sys-auth/elogind sys-apps/systemd ) >=dev-libs/libmodule-5.0.0 dev-util/cmake sys-apps/dbus virtual/pkgconfig bash-completion? ( app-shells/bash-completion ) dev-util/ninja dev-util/cmake >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install postinst postrm prepare test unpack
-DEPEND=|| ( sys-auth/elogind sys-apps/systemd ) dev-libs/popt sci-libs/gsl dev-libs/libconfig
+DEPEND=dev-libs/libconfig dev-libs/popt sci-libs/gsl || ( sys-auth/elogind sys-apps/systemd )
 DESCRIPTION=A C daemon that turns your webcam into a light sensor
 EAPI=7
 HOMEPAGE=https://github.com/FedeDP/Clight
 IUSE=bash-completion geoclue upower
 LICENSE=GPL-3
 PROPERTIES=live
-RDEPEND=|| ( sys-auth/elogind sys-apps/systemd ) dev-libs/popt sci-libs/gsl dev-libs/libconfig app-misc/clightd geoclue? ( app-misc/geoclue ) upower? ( sys-power/upower )
+RDEPEND=dev-libs/libconfig dev-libs/popt sci-libs/gsl || ( sys-auth/elogind sys-apps/systemd ) >=app-misc/clightd-5.0 geoclue? ( app-misc/geoclue:2.0 ) upower? ( sys-power/upower )
 SLOT=0
 _eclasses_=cmake	ac7cb516f6a288b6a82bc0649ce49878	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	git-r3	3e7ec3d6619213460c85e2aa48398441	l10n	8cdd85e169b835d518bc2fd59f780d8e	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	wrapper	4251d4c84c25f59094fd557e0063a974	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
-_md5_=ebcdf0e75c7ec4eecf87ddd77552bc3a
+_md5_=97a3ed28f26009e03424ad3d408527cc
