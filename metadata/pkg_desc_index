@@ -11,7 +11,7 @@ dev-ruby/travis 1.10.0: Travis CI Client (CLI and Ruby library)
 dev-util/yamllint 1.26.0: A linter for YAML files
 media-gfx/aaphoto 0.45: Automatic color correction and resizing of photos
 net-firewall/arno-iptables-firewall 2.1.1: Arno's iptables firewall script
-sys-firmware/sof-bin 1.4.2 1.4.3 1.5 1.5.1 1.6: Sound Open Firmware (SOF) firmware and topology binaries
+sys-firmware/sof-firmware 1.6.1: Sound Open Firmware (SOF) binary files
 sys-process/nq 0.3.1: Unix command line queue utility.
 www-apps/laminar 1.0: Fast and lightweight Continuous Integration
 x11-misc/clipmenu 6.2.0: Clipboard management using dmenu
