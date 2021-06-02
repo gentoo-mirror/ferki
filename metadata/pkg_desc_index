@@ -7,11 +7,14 @@ app-misc/clightd 5.3 9999: A linux bus interface for screen settings (brightness
 app-misc/todo 2.12.0-r1: A CLI-based TODO list manager
 app-text/proselint 0.10.2: A linter for prose
 dev-libs/libmodule 5.0.1: C simple and elegant implementation of an actor library
+dev-python/imaplib2 9999: Threaded Python IMAP4 client.
+dev-python/rfc6555 1.0.0_pre20190913: Implementation of the Happy Eyeballs Algorithm described in RFC 6555.
 dev-ruby/travis 1.10.0: Travis CI Client (CLI and Ruby library)
 dev-util/yamllint 1.26.0: A linter for YAML files
 dev-vcs/lab 0.22.0: Lab wraps Git or Hub, making it simple to interact with repositories on GitLab
 media-gfx/aaphoto 0.45: Automatic color correction and resizing of photos
 net-firewall/arno-iptables-firewall 2.1.1: Arno's iptables firewall script
+net-mail/offlineimap3 9999: Powerful IMAP/Maildir synchronization and reader support
 sys-firmware/sof-firmware 1.6.1: Sound Open Firmware (SOF) binary files
 sys-process/nq 0.3.1: Unix command line queue utility.
 www-apps/laminar 1.0: Fast and lightweight Continuous Integration
