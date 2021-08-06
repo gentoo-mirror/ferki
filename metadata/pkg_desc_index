@@ -18,7 +18,7 @@ net-firewall/arno-iptables-firewall 2.1.1: Arno's iptables firewall script
 net-mail/offlineimap3 9999: Powerful IMAP/Maildir synchronization and reader support
 sys-firmware/sof-firmware 1.6.1: Sound Open Firmware (SOF) binary files
 sys-process/nq 0.3.1: Unix command line queue utility.
-www-apps/laminar 1.0: Fast and lightweight Continuous Integration
+www-apps/laminar 1.1: Fast and lightweight Continuous Integration
 x11-misc/clipmenu 6.2.0: Clipboard management using dmenu
 x11-misc/clipnotify 1.0.2: Notify on new X clipboard events
 x11-terms/st 0.8.4: simple terminal implementation for X
