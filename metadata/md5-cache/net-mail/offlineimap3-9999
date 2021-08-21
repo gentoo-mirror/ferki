@@ -6,7 +6,6 @@ EAPI=7
 HOMEPAGE=https://github.com/OfflineIMAP/offlineimap3
 INHERIT=distutils-r1 git-r3
 IUSE=doc kerberos ssl test python_targets_python3_8 python_targets_python3_9
-KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
 PROPERTIES=live
 RDEPEND=dev-python/certifi[python_targets_python3_8(-)?,python_targets_python3_9(-)?] dev-python/distro[python_targets_python3_8(-)?,python_targets_python3_9(-)?] >=dev-python/imaplib2-2.57[python_targets_python3_8(-)?,python_targets_python3_9(-)?] dev-python/pyyaml[python_targets_python3_8(-)?,python_targets_python3_9(-)?] dev-python/rfc6555[python_targets_python3_8(-)?,python_targets_python3_9(-)?] >=dev-python/urllib3-1.25.9[python_targets_python3_8(-)?,python_targets_python3_9(-)?] kerberos? ( dev-python/gssapi[python_targets_python3_8(-)?,python_targets_python3_9(-)?] ) python_targets_python3_8? ( dev-lang/python:3.8[sqlite,ssl?] ) python_targets_python3_9? ( dev-lang/python:3.9[sqlite,ssl?] ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?,python_targets_python3_9(-)?]
@@ -14,4 +13,4 @@ REQUIRED_USE=|| ( python_targets_python3_8 python_targets_python3_9 )
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	multibuild	05a584848db4901c97fcd94ae7cc3a97	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	08d890890f70fe0096093016e55438d5	python-r1	e20b80360497e6215aed0dd4ca7d6bad	distutils-r1	e297e8afd355d60fb9d2d7b37b81214f	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=b47700ae1a946ee6ba029915bd1af8a4
+_md5_=b6ce60be2e94f34a4f6bac53d3a96083
