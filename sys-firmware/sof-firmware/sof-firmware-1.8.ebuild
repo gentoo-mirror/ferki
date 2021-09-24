@@ -16,13 +16,13 @@ IUSE=""
 S=${WORKDIR}/sof-bin-${PV}
 
 src_install() {
-	insinto /lib/firmware/intel
+	insinto /lib/firmware/intel/sof
+	doins -r v${PV}.x/sof-v${PV}/*
 
-	doins -r v${PV}.x/sof
-	doins -r v${PV}.x/sof-v${PV}
-	doins -r v${PV}.x/sof-tplg
-	doins -r v${PV}.x/sof-tplg-v${PV}
+	insinto /lib/firmware/intel/sof-tplg
+	doins -r v${PV}.x/sof-tplg-v${PV}/*
 
+	local binary
 	for binary in sof-ctl sof-logger sof-probes; do
 		dobin v${PV}.x/tools-v${PV}/${binary}
 	done
