@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=Vale-compatible implementations of many popular readability metrics.
+EAPI=8
+HOMEPAGE=https://github.com/errata-ai/Readability
+KEYWORDS=~amd64
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/errata-ai/Readability/archive/v0.1.0.tar.gz -> vale-style-Readability-0.1.0.tar.gz
+_md5_=005addc8f35feaed0dffcc428803c0af

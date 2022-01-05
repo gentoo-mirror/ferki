@@ -8,5 +8,8 @@ app-misc/clightd:dpms - Enable DPMS support
 app-misc/clightd:gamma - Enable gamma support
 app-misc/clightd:screen - Enable screen emitted backlight computation support
 app-misc/clightd:yoctolight - Enable YoctoLight ALS devices support
+app-text/vale:asciidoc - Support AsciiDoc
+app-text/vale:rst - Support reStructuredText
+app-text/vale:styles - Install upstream's collection of style guides
 net-firewall/arno-iptables-firewall:plugins - Install optional plugins
 net-firewall/arno-iptables-firewall:rsyslog - Install configuration snippet for app-admin/rsyslog
