@@ -6,6 +6,7 @@ app-misc/clight:geoclue - Enable geolocation support through app-misc/geoclue
 app-misc/clightd:ddc - Enable ddcutil support
 app-misc/clightd:dpms - Enable DPMS support
 app-misc/clightd:gamma - Enable gamma support
+app-misc/clightd:pipewire - Enable pipewire camera sensor support
 app-misc/clightd:screen - Enable screen emitted backlight computation support
 app-misc/clightd:yoctolight - Enable YoctoLight ALS devices support
 app-text/vale:asciidoc - Support AsciiDoc
