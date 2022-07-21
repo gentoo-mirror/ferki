@@ -11,7 +11,7 @@ app-text/vale-style-Google 0.3.3: Vale-compatible implementation of the Google D
 app-text/vale-style-Joblint 0.4.1: A Vale-compatible implementation of the Joblint linter
 app-text/vale-style-Microsoft 0.9.0: A Vale-compatible implementation of the Microsoft Writing Style Guide
 app-text/vale-style-Readability 0.1.0: Vale-compatible implementations of many popular readability metrics.
-app-text/vale-style-alex 0.1.1: A Vale-compatible implementation of the guidelines enforced by the alex linter
+app-text/vale-style-alex 0.2.0: A Vale-compatible implementation of the guidelines enforced by the alex linter
 app-text/vale-style-proselint 0.3.2: A Vale-compatible implementation of Python's proselint linter
 app-text/vale-style-write-good 0.4.0: A Vale-compatible implementation of the write-good linter
 dev-libs/libmodule 5.0.1: C simple and elegant implementation of an actor library
