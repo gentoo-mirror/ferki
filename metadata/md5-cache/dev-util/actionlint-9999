@@ -1,0 +1,13 @@
+BDEPEND=doc? ( app-text/ronn ) >=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.18 app-arch/unzip
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Static checker for GitHub Actions workflow files
+EAPI=8
+HOMEPAGE=https://github.com/rhysd/actionlint
+INHERIT=git-r3 go-module
+IUSE=doc
+LICENSE=MIT
+PROPERTIES=test_network live
+RESTRICT=test strip
+SLOT=0
+_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	go-module	4c4b34f361efda91762ffeda8f632c02
+_md5_=4b5b7fc07b338909da4d5cfd31cc1283
