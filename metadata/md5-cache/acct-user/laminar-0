@@ -5,5 +5,5 @@ INHERIT=acct-user
 KEYWORDS=amd64 x86
 RDEPEND=acct-group/laminar
 SLOT=0
-_eclasses_=user-info	83547b4df3e1ba5a6bf91a0837eaa664	acct-user	98058a1561d517416b208e3219858871
+_eclasses_=user-info	83547b4df3e1ba5a6bf91a0837eaa664	acct-user	e0a8307fcba2b1c2ec2914c064c50a7f
 _md5_=d8290271b7dfa7aadb9d175152ac22f0
