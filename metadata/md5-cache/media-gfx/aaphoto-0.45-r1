@@ -1,13 +1,13 @@
-DEFINED_PHASES=pretend setup
+DEFINED_PHASES=pretend
 DEPEND=media-libs/libjpeg-turbo media-libs/libpng:0= sys-libs/zlib
 DESCRIPTION=Automatic color correction and resizing of photos
 EAPI=8
-HOMEPAGE=http://log69.com/aaphoto.html https://github.com/log69/aaphoto
+HOMEPAGE=https://web.archive.org/web/20220728233436/http://log69.com/aaphoto_en.html https://github.com/log69/aaphoto
 INHERIT=toolchain-funcs
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 RDEPEND=media-libs/libjpeg-turbo media-libs/libpng:0= sys-libs/zlib
 SLOT=0
-SRC_URI=http://log69.com/downloads/aaphoto_sources_0.45.tar.gz
+SRC_URI=https://github.com/log69/aaphoto/tarball/ebe21c4 -> aaphoto-0.45.tar.gz
 _eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693
-_md5_=ec935ca0935f4e6e2e9b3b86578e09fa
+_md5_=934565fbb001178ceccd812eb1e12bdc

@@ -19,7 +19,7 @@ dev-python/imaplib2 3.6 9999: Threaded Python IMAP4 client.
 dev-python/rfc6555 0.1.0: Implementation of the Happy Eyeballs Algorithm described in RFC 6555.
 dev-util/actionlint 1.6.23 9999: Static checker for GitHub Actions workflow files
 dev-util/dive 0.10.0: A tool for exploring each layer in a docker image
-media-gfx/aaphoto 0.45: Automatic color correction and resizing of photos
+media-gfx/aaphoto 0.45-r1: Automatic color correction and resizing of photos
 net-firewall/arno-iptables-firewall 2.1.1a: Arno's iptables firewall script
 net-mail/offlineimap3 8.0.0 9999: Powerful IMAP/Maildir synchronization and reader support
 www-apps/laminar 1.2: Fast and lightweight Continuous Integration
