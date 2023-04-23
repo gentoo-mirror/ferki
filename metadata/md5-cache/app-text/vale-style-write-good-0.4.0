@@ -1,9 +1,0 @@
-DEFINED_PHASES=install
-DESCRIPTION=A Vale-compatible implementation of the write-good linter
-EAPI=8
-HOMEPAGE=https://github.com/errata-ai/write-good
-KEYWORDS=~amd64
-LICENSE=MIT
-SLOT=0
-SRC_URI=https://github.com/errata-ai/write-good/archive/v0.4.0.tar.gz -> vale-style-write-good-0.4.0.tar.gz
-_md5_=389f4bf3e07dd915f89f6959d899c762
