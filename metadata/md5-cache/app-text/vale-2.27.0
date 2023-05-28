@@ -10,6 +10,6 @@ LICENSE=Apache-2.0 BSD BSD-2 MIT public-domain
 RDEPEND=asciidoc? ( dev-ruby/asciidoctor ) rst? ( dev-python/docutils ) xml? ( dev-libs/libxslt )
 RESTRICT=test strip
 SLOT=0
-SRC_URI=https://github.com/errata-ai/vale/archive/v2.25.2.tar.gz -> vale-2.25.2.tar.gz https://github.com/ferki/vale/releases/download/v2.25.2-gentoo-deps/vale-2.25.2-gentoo-deps.tar.xz
+SRC_URI=https://github.com/errata-ai/vale/archive/v2.27.0.tar.gz -> vale-2.27.0.tar.gz https://github.com/ferki/vale/releases/download/v2.27.0-gentoo-deps/vale-2.27.0-gentoo-deps.tar.xz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1	go-module	9c75e51a48520b2f01471c1f91762882
 _md5_=ff4af297863931ab88444d775f65e3dc
