@@ -1,9 +1,10 @@
 DEFINED_PHASES=install postinst preinst prerm pretend
+DEPEND=acct-group/laminar
 DESCRIPTION=System user: laminar
 EAPI=7
 INHERIT=acct-user
 KEYWORDS=amd64 x86
 RDEPEND=acct-group/laminar
 SLOT=0
-_eclasses_=user-info	83547b4df3e1ba5a6bf91a0837eaa664	acct-user	fd6725fcc11ecffded6fe9228b8e3448
+_eclasses_=user-info	83547b4df3e1ba5a6bf91a0837eaa664	acct-user	61481025da4dbbd164816ffa01dac002
 _md5_=d8290271b7dfa7aadb9d175152ac22f0
