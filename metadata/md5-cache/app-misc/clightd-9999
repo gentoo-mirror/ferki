@@ -10,5 +10,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=>=dev-libs/libmodule-5.0.0 media-libs/libjpeg-turbo sys-apps/dbus sys-auth/polkit virtual/libudev || ( sys-auth/elogind sys-apps/systemd ) ddc? ( >=app-misc/ddcutil-0.9.5 ) dpms? ( dev-libs/wayland x11-libs/libdrm x11-libs/libXext x11-libs/libX11 ) gamma? ( dev-libs/wayland x11-libs/libdrm x11-libs/libXrandr x11-libs/libX11 ) pipewire? ( media-video/pipewire ) screen? ( x11-libs/libX11 ) yoctolight? ( virtual/libusb:1 )
 SLOT=0
-_eclasses_=toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	c816c598969cbaf38cc02d2496ad2e98	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	c8951c1dfcc1d43e3f967f61fd0ec59c	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	0f2e0c197fad0312f3c4765c9cf36271	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
+_eclasses_=toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	78cf3cc2d5572fddf5e5e10c70f7c81a	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	c8951c1dfcc1d43e3f967f61fd0ec59c	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	0f2e0c197fad0312f3c4765c9cf36271	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
 _md5_=1ea974f521818d6d3f95a777cc004306
