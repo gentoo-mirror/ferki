@@ -1,4 +1,4 @@
-# Copyright 2020-2022 Gentoo Authors
+# Copyright 2020-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -26,6 +26,7 @@ IUSE="bash-completion geoclue upower"
 
 PATCHES=(
 	"${FILESDIR}/clight-gentoo-skip-manpage-compression.patch"
+	"${FILESDIR}/clight-version.patch"
 )
 
 DEPEND="
@@ -45,11 +46,18 @@ RDEPEND="
 BDEPEND="
 	${DEPEND}
 	>=dev-libs/libmodule-5.0.0
-	dev-util/cmake
 	sys-apps/dbus
 	virtual/pkgconfig
 	bash-completion? ( app-shells/bash-completion )
 "
+
+src_configure() {
+	local mycmakeargs=(
+		-DCMAKE_INSTALL_SYSCONFDIR="${EPREFIX}/etc"
+	)
+
+	cmake_src_configure
+}
 
 pkg_postinst() {
 	xdg_icon_cache_update

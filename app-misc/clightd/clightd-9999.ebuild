@@ -1,4 +1,4 @@
-# Copyright 2020-2023 Gentoo Authors
+# Copyright 2020-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -25,23 +25,26 @@ SLOT="0"
 IUSE="ddc dpms gamma pipewire screen yoctolight"
 
 DEPEND="
-	>=dev-libs/libmodule-5.0.0
+	dev-libs/libmodule
 	media-libs/libjpeg-turbo
+	net-libs/libiio
 	sys-apps/dbus
 	sys-auth/polkit
 	virtual/libudev
 	|| ( sys-auth/elogind sys-apps/systemd )
 	ddc? (
-		>=app-misc/ddcutil-0.9.5
+		app-misc/ddcutil
 	)
 	dpms? (
 		dev-libs/wayland
+		dev-util/wayland-scanner
 		x11-libs/libdrm
 		x11-libs/libXext
 		x11-libs/libX11
 	)
 	gamma? (
 		dev-libs/wayland
+		dev-util/wayland-scanner
 		x11-libs/libdrm
 		x11-libs/libXrandr
 		x11-libs/libX11
@@ -50,6 +53,8 @@ DEPEND="
 		media-video/pipewire
 	)
 	screen? (
+		dev-libs/wayland
+		dev-util/wayland-scanner
 		x11-libs/libX11
 	)
 	yoctolight? (
@@ -59,6 +64,10 @@ DEPEND="
 
 RDEPEND="${DEPEND}"
 BDEPEND="${DEPEND}"
+
+PATCHES=(
+	"${FILESDIR}/clightd-version.patch"
+)
 
 src_configure() {
 	local mycmakeargs=() useflag
@@ -72,4 +81,10 @@ src_configure() {
 	fi
 
 	cmake_src_configure
+}
+
+src_install() {
+	cmake_src_install
+
+	keepdir /etc/"${PN}"/sensors.d
 }
