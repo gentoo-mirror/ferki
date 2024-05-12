@@ -14,7 +14,7 @@ dev-util/actionlint 1.6.24 9999: Static checker for GitHub Actions workflow file
 dev-util/dive 0.10.0: A tool for exploring each layer in a docker image
 media-gfx/aaphoto 0.45_p20160710: Automatic color correction and resizing of photos
 net-firewall/arno-iptables-firewall 2.1.1a: Arno's iptables firewall script
-net-mail/offlineimap3 8.0.0 9999: Powerful IMAP/Maildir synchronization and reader support
+net-mail/offlineimap3 8.0.0-r1 9999: Powerful IMAP/Maildir synchronization and reader support
 www-apps/laminar 1.3-r2: Fast and lightweight Continuous Integration
 x11-misc/clipmenu 6.2.0: Clipboard management using dmenu
 x11-misc/clipnotify 1.0.2: Notify on new X clipboard events
