@@ -11,4 +11,4 @@ PROPERTIES=live
 RDEPEND=dev-libs/libmodule media-libs/libjpeg-turbo net-libs/libiio sys-apps/dbus sys-auth/polkit virtual/libudev || ( sys-auth/elogind sys-apps/systemd ) ddc? ( app-misc/ddcutil ) dpms? ( dev-libs/wayland dev-util/wayland-scanner x11-libs/libdrm x11-libs/libXext x11-libs/libX11 ) gamma? ( dev-libs/wayland dev-util/wayland-scanner x11-libs/libdrm x11-libs/libXrandr x11-libs/libX11 ) pipewire? ( media-video/pipewire ) screen? ( dev-libs/wayland dev-util/wayland-scanner x11-libs/libX11 ) yoctolight? ( virtual/libusb:1 )
 SLOT=0
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	d309b9713dfc18e754cba88d3ba69653	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	c7c9a62d6232cac66d4ea32d575c3e7c	git-r3	fbb2889c81f3a05910c1524db69425c1
-_md5_=6f08d9712f78f32e2f760d8d33a39f99
+_md5_=dd1b023685236d0200dd9a68ef36d226
