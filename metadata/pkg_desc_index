@@ -6,7 +6,7 @@ app-misc/clight 4.11 9999: A C daemon that turns your webcam into a light sensor
 app-misc/clightd 5.9 9999: A linux bus interface for screen settings (brightness, gamma, etc.)
 app-misc/todo 2.12.0-r1: A CLI-based TODO list manager
 app-text/proselint 9999: A linter for prose
-app-text/vale 3.5.0: A syntax-aware linter for prose built with speed and extensibility in mind
+app-text/vale 3.6.0: A syntax-aware linter for prose built with speed and extensibility in mind
 dev-libs/libmodule 5.0.1: C simple and elegant implementation of an actor library
 dev-python/imaplib2 3.6 9999: Threaded Python IMAP4 client.
 dev-python/rfc6555 0.1.0: Implementation of the Happy Eyeballs Algorithm described in RFC 6555.
