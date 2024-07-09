@@ -10,4 +10,4 @@ RDEPEND=x11-misc/clipnotify x11-misc/dmenu x11-misc/xsel
 SLOT=0
 SRC_URI=https://github.com/cdown/clipmenu/archive/6.2.0.tar.gz -> clipmenu-6.2.0.tar.gz
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	c8b03e8df84486aa991d4396686e8942
-_md5_=53a4f124d2efa0f2ba2be7e1d76ef8be
+_md5_=260dcc1783fc464b4633be7a29519c99
