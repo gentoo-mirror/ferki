@@ -11,3 +11,6 @@ app-misc/clightd:screen - Enable screen emitted backlight computation support
 app-misc/clightd:yoctolight - Enable YoctoLight ALS devices support
 net-firewall/arno-iptables-firewall:plugins - Install optional plugins
 net-firewall/arno-iptables-firewall:rsyslog - Install configuration snippet for app-admin/rsyslog
+x11-misc/clipmenu:dmenu - Use dmenu as default launcher
+x11-misc/clipmenu:fzf - Use fzf as default launcher
+x11-misc/clipmenu:rofi - Use rofi as default launcher
