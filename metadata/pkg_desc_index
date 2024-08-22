@@ -10,7 +10,7 @@ app-text/vale 3.7.0: A syntax-aware linter for prose built with speed and extens
 dev-libs/libmodule 5.0.1: C simple and elegant implementation of an actor library
 dev-python/imaplib2 3.6 9999: Threaded Python IMAP4 client.
 dev-python/rfc6555 0.1.0: Implementation of the Happy Eyeballs Algorithm described in RFC 6555.
-dev-util/actionlint 1.6.24 9999: Static checker for GitHub Actions workflow files
+dev-util/actionlint 1.7.1 9999: Static checker for GitHub Actions workflow files
 dev-util/dive 0.10.0: A tool for exploring each layer in a docker image
 media-gfx/aaphoto 0.45_p20160710: Automatic color correction and resizing of photos
 net-firewall/arno-iptables-firewall 2.1.2a: Arno's iptables firewall script
