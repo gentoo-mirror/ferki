@@ -1,6 +1,6 @@
 acct-group/laminar 0: System group: laminar
 acct-user/laminar 0: System user: laminar
-app-admin/rex 1.14.3 9999: (R)?ex, the friendly automation framework
+app-admin/rex 1.15.0 9999: (R)?ex, the friendly automation framework
 app-i18n/translate-shell 0.9.7.1: Online command-line translator
 app-misc/clight 4.11 9999: A C daemon that turns your webcam into a light sensor
 app-misc/clightd 5.9 9999: A linux bus interface for screen settings (brightness, gamma, etc.)
