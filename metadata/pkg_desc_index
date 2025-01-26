@@ -4,6 +4,7 @@ app-admin/rex 1.15.0 9999: (R)?ex, the friendly automation framework
 app-i18n/translate-shell 0.9.7.1: Online command-line translator
 app-misc/clight 4.11 9999: A C daemon that turns your webcam into a light sensor
 app-misc/clightd 5.9 9999: A linux bus interface for screen settings (brightness, gamma, etc.)
+app-misc/dateutils 0.4.11: Command line date and time utilities
 app-misc/todo 2.12.0-r2: A CLI-based TODO list manager
 app-text/proselint 9999: A linter for prose
 app-text/vale 3.9.1: A syntax-aware linter for prose built with speed and extensibility in mind
