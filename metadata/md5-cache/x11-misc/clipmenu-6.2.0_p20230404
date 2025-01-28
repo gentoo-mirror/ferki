@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=compile install postinst prepare
+DESCRIPTION=Clipboard management
+EAPI=8
+HOMEPAGE=https://github.com/cdown/clipmenu
+INHERIT=optfeature systemd
+IUSE=+dmenu fzf rofi
+KEYWORDS=~amd64 ~x86
+LICENSE=Unlicense
+RDEPEND=x11-misc/clipnotify x11-misc/xsel dmenu? ( x11-misc/dmenu ) fzf? ( app-shells/fzf ) rofi? ( x11-misc/rofi )
+REQUIRED_USE=?? ( dmenu fzf rofi )
+SLOT=0
+SRC_URI=https://github.com/cdown/clipmenu/archive/9735907061cc0a69734c887a35a048805539f5dc.tar.gz -> clipmenu-6.2.0_p20230404.tar.gz
+_eclasses_=optfeature	538bce96e5589935b57e178e8635f301	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	systemd	54bd206bb5c4efac6ae28b6b006713b0
+_md5_=78fb78c7db07f5e11e2c474e952fc348
