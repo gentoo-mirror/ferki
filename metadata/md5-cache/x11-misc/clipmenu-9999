@@ -1,6 +1,6 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl] virtual/pkgconfig
-DEFINED_PHASES=install postinst prepare unpack
-DEPEND=x11-base/xorg-server[xvfb] x11-libs/libX11 x11-libs/libXfixes x11-misc/xsel
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=x11-libs/libX11 x11-libs/libXfixes
 DESCRIPTION=Clipboard management
 EAPI=8
 HOMEPAGE=https://github.com/cdown/clipmenu
@@ -8,8 +8,8 @@ INHERIT=git-r3 systemd
 IUSE=+dmenu fzf rofi
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=x11-base/xorg-server[xvfb] x11-libs/libX11 x11-libs/libXfixes x11-misc/xsel dmenu? ( x11-misc/dmenu ) fzf? ( app-shells/fzf ) rofi? ( x11-misc/rofi )
+RDEPEND=x11-libs/libX11 x11-libs/libXfixes dmenu? ( x11-misc/dmenu ) fzf? ( app-shells/fzf ) rofi? ( x11-misc/rofi )
 REQUIRED_USE=?? ( dmenu fzf rofi )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	systemd	54bd206bb5c4efac6ae28b6b006713b0
-_md5_=225cd3956ef9dd2d90021285a9aaaaa9
+_md5_=a7fc2d911e64fd989d60e190a7b82508
