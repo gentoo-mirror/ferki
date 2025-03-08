@@ -16,10 +16,8 @@ IUSE="+dmenu fzf rofi"
 REQUIRED_USE="?? ( dmenu fzf rofi )"
 
 DEPEND="
-	x11-base/xorg-server[xvfb]
 	x11-libs/libX11
 	x11-libs/libXfixes
-	x11-misc/xsel
 "
 
 RDEPEND="
@@ -37,6 +35,10 @@ src_prepare() {
 	elif use fzf ; then
 		sed -i 's|"dmenu"|"fzf"|g'  src/config.c || die "sed failed"
 	fi
+}
+
+src_compile() {
+	emake CFLAGS="${CFLAGS}"
 }
 
 src_install() {
