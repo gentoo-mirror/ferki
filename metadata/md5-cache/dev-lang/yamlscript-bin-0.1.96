@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=Programming in YAML
+EAPI=8
+HOMEPAGE=https://yamlscript.org/
+IUSE=libyamlscript
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=sys-libs/zlib
+SLOT=0
+SRC_URI=https://github.com/yaml/yamlscript/releases/download/0.1.96/ys-0.1.96-linux-x64.tar.xz libyamlscript? ( https://github.com/yaml/yamlscript/releases/download/0.1.96/libyamlscript-0.1.96-linux-x64.tar.xz )
+_md5_=8a82ef160cc7db8025c88570a2227c21

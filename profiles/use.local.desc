@@ -9,6 +9,7 @@ app-misc/clightd:gamma - Enable gamma support
 app-misc/clightd:pipewire - Enable pipewire camera sensor support
 app-misc/clightd:screen - Enable screen emitted backlight computation support
 app-misc/clightd:yoctolight - Enable YoctoLight ALS devices support
+dev-lang/yamlscript-bin:libyamlscript - Install the libyamlscript shared library.
 net-firewall/arno-iptables-firewall:plugins - Install optional plugins
 net-firewall/arno-iptables-firewall:rsyslog - Install configuration snippet for app-admin/rsyslog
 x11-misc/clipmenu:dmenu - Use dmenu as default launcher
