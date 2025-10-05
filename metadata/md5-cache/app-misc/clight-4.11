@@ -1,4 +1,4 @@
-BDEPEND=dev-libs/libconfig dev-libs/popt sci-libs/gsl || ( sys-auth/elogind sys-apps/systemd ) >=dev-libs/libmodule-5.0.0 sys-apps/dbus virtual/pkgconfig bash-completion? ( app-shells/bash-completion ) app-alternatives/ninja >=dev-build/cmake-3.20.5
+BDEPEND=dev-libs/libconfig dev-libs/popt sci-libs/gsl || ( sys-auth/elogind sys-apps/systemd ) >=dev-libs/libmodule-5.0.0 sys-apps/dbus virtual/pkgconfig bash-completion? ( app-shells/bash-completion ) app-alternatives/ninja >=dev-build/cmake-3.28.5
 DEFINED_PHASES=compile configure install postinst postrm prepare test
 DEPEND=dev-libs/libconfig dev-libs/popt sci-libs/gsl || ( sys-auth/elogind sys-apps/systemd )
 DESCRIPTION=A C daemon that turns your webcam into a light sensor
@@ -11,5 +11,5 @@ LICENSE=GPL-3
 RDEPEND=dev-libs/libconfig dev-libs/popt sci-libs/gsl || ( sys-auth/elogind sys-apps/systemd ) >=app-misc/clightd-5.0 geoclue? ( app-misc/geoclue:2.0 ) upower? ( sys-power/upower )
 SLOT=0
 SRC_URI=https://github.com/FedeDP/Clight/archive/4.11.tar.gz -> clight-4.11.tar.gz
-_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	cf95ad72ab207889c1668fc0d1bee181
 _md5_=12e0a5248cc5c5a91106745701492a5a
